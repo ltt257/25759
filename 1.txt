@@ -1,0 +1,5 @@
+python train.py \
+--config_path patchnetvlad/configs/train.ini \
+--cache_path=/path/to/your/desired/cache/folder \
+--save_path=/path/to/your/desired/checkpoint/save/folder \
+--dataset_root_dir=/path/to/your/mapillary/dataset
